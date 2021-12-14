@@ -62,8 +62,8 @@ Use the inning function below to do the following:
 NOTE: This will be a callback function for the tasks below
 */
 
-function inning(/*Code Here*/){
-    /*Code Here*/
+function inning(num1){
+    return Math.floor(Math.random() * 3);
 }
 
 
@@ -81,7 +81,13 @@ Use the finalScore function below to do the following:
 }
 */ 
 
-function finalScore(/*code Here*/){
+function finalScore(score){
+  const totalScore = []
+  let homeScore = 0;
+  let awayScore = 0;
+  for(let i = 0; i < 9; i++){
+    const currrentScore = 
+  }
   /*Code Here*/
 }
 
